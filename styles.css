@@ -1,0 +1,97 @@
+/* Reset some default styles for consistency */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    font-family: poppins, sans-serif;
+}
+
+/* Set background color and text color for the entire page */
+body {
+    background-color: #0b2dc6; /* Replace with your desired background color */
+    color: white; /* Set text color to white */
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Define styles for the header section */
+
+/* Define styles for the header section */
+header {
+    /* Define styles for the header section */
+header {
+    background-image: url("pexels-photo-5845691.jpeg"); /* Replace with your image URL */
+    background-size: 100% auto; /* Adjusted property */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    height: 300px; 
+    max-width: 100%;
+}
+}
+
+/* Define styles for the main content section */
+.main-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 80px 40px 40px 40px;
+}
+
+/* Style the call-to-action button */
+.cta-button {
+    display: inline-block;
+    padding: 20px;
+    background-color: #e74c3c;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+/* Change button color on hover */
+.cta-button:hover {
+    background-color: #c0392b;
+}
+
+/* Style the footer section */
+footer {
+    background-color: #0f0f0d;
+    color: #0e15df;
+    text-align: center;
+    padding: 20px;
+}
+/* Style headings */
+h1 {
+    font-size: 65px;
+    margin-bottom: 150px;
+    font-weight: 500;
+
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Style paragraphs */
+p {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+/* Logo */
+.logo {
+    max-width: 100px;
+    position: absolute;
+    top: 20px; /* Adjust the top position as needed */
+    left: 20px; /* Adjust the left position as needed */
+}
